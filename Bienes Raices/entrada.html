@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <meta htt-http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bienes Raices</title>
+    <!-- Solo cargo la fuente copiando y pegando el enlace antes de las hojas de estilo-->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" rel="stylesheet">
+    <!-- Esta hoja es para que google no aplique los estilos por default y nos arruine el diseño-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Esta es nuestra hoja de estilo aca es donde hacemos bonita nuestra pagina mediante clases y propiedades-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--NOTA: nuestra hoja de estilo debe ser la ultima por que css va a aplicar los ultimos estilos que detecte y esa deteccion es en cascada asi que deben estar a final si queres que se apliquen-->
+    <!--Tu hoja de estilo debe reescribir a los otros no los otros a tu hoja de estilo-->
+  </head>
+  <body>
+    <header class="site-header ">
+        <div class="contenedor contenido-header">
+            <div class="barra">
+                  <a href="/">
+                  <img src="img/logo.svg" alt="Logotipo de bienes raices">
+                  </a>
+
+                  <nav class="navegacion">
+                      <a href="nosotros.html">Nosotros</a>
+                      <a href="anuncios.html">Anuncions</a>
+                      <a href="blog.html">Blog</a>
+                      <a href="contacto.html">Contacto</a>
+                  </nav>
+            </div>
+            <!--contenido-header solo aplica en el div de barra y el h1-->
+        </div>  <!-- Contenedor -->
+    </header>   <!-- Cabecera de la pagina -->
+
+    <h1 class="fw-300 centrar-texto">Consejos para tener una alberca en tu casa sin gastar demaciado</h1>
+    <img src="img/destacada2.jpg" alt="imagen-principal">
+    <!--ponemos la imagen de fondo que ocupe todo el espacio del contenido con el snippet que pusimos en css para img-->
+    <main class="contenedor seccion contenido-centrado texto-entrada">
+        <div class="resumen-propiedad">
+              <p class="precio">$3,000,000</p>
+
+              <ul class="iconos-caracteristicas">
+                  <li>
+                        <img src="img/icono_wc.svg" alt="icono wc">
+                        <p>3</p>
+                  </li>
+                  <li>
+                        <img src="img/icono_estacionamiento.svg" alt="icono autos">
+                        <p>3</p>
+                  </li>
+                  <li>
+                        <img src="img/icono_dormitorio.svg" alt="icono habitaciones">
+                        <p>4</p>
+                  </li>
+              </ul>
+
+        </div><!--Resumen-propiedad-->
+        <p>Escrito el: <span> 27/12/2019 </span> por : <span> Admin </span></p>
+        <p>
+          Vestibulum auctor, arcu euismod maximus dignissim, lorem turpis aliquam odio, a venenatis arcu dolor imperdiet dui. Duis porta pretium metus eu mollis. In accumsan nisl justo, vitae imperdiet leo pharetra non. Nam ligula purus, porta ac ante sed, suscipit malesuada dolor. Ut dui libero, tempus eu sem vel, bibendum sagittis lectus. Duis aliquet tristique elementum. Nullam feugiat lectus vel odio convallis, ac luctus urna auctor. Morbi vel neque ac nunc venenatis ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque ultrices lorem sapien, a pretium quam viverra id. Suspendisse potenti. Nam tempus tortor vel erat ornare, dapibus vulputate velit posuere. Duis efficitur tortor a dolor consequat, id fermentum lectus malesuada. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices mauris id condimentum pellentesque. Vestibulum porta sodales mauris, ac pellentesque ante varius quis.
+        </p>
+        <p>
+          Aenean at molestie sapien. Integer eget augue venenatis, tincidunt massa a, finibus nisi. Fusce feugiat lacinia fermentum. Donec rhoncus egestas sem sit amet auctor. Proin eu lacus ac nibh sollicitudin venenatis. Nulla vel orci purus. Cras nisl nisi, aliquam sed turpis sit amet, tincidunt laoreet ex. Aliquam sit amet ipsum viverra, egestas dui ac, suscipit ante. Cras tortor urna, vestibulum in pretium vitae, rhoncus id neque. Nam accumsan odio non lorem malesuada consequat. Maecenas non consequat ipsum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas in interdum enim. Nunc ut nunc lorem. Fusce aliquam tempor leo. Vestibulum non lacus aliquet, faucibus nulla eu, bibendum mi.
+        </p>
+
+    </main>
+
+
+    <footer class="site-footer seccion">
+      <div class="contenedor contenedor-footer">
+          <nav class="navegacion"> <!--estoy reutilizando la classe esa es la ventaja de usar css con clases y no con ID's-->
+            <a target="_blank" href="/nosotros.html">Nosotros</a>
+            <a href="/anuncios.html">Anuncions</a>
+            <a href="/blog.html">Blog</a>
+            <a href="/contacto.html">Contacto</a>
+          </nav>
+          <p class="copyright">Todos los derechos reservados 2019 &copy;</p>
+      </div>
+    </footer>
+  </body>
+</html>
